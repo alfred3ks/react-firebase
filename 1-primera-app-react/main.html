@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React 18</title>
+</head>
+<body>
+    <div id="container"></div>
+
+    <!-- Agregamos React desde una CDN links -->
+    <!-- Segun documentacion:https://es.reactjs.org/docs/cdn-links.html-->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- Trabajando con ReactJS 18 -->
+    <script>
+        const container = document.getElementById('container');
+        // const root = ReactDOM.createRoot(container);
+
+        const h1 = React.createElement('h1', {}, 'Hola Mundo');
+        // root.render(h1);
+
+        ReactDOM.createRoot(container).render(h1);
+
+    </script>
+
+</body>
+</html>

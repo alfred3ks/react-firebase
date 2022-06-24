@@ -1,0 +1,7 @@
+Las herramientas necesarias en el navegador:
+
+- React Developer Tools. by React.
+
+Para el editor de codigo la extension:
+
+- Simple React Snippets.
